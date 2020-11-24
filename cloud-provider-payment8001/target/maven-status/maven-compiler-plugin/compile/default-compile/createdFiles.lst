@@ -1,0 +1,5 @@
+com\weixiao\springcloud\dao\PaymentDao.class
+com\weixiao\springcloud\controller\PaymentController.class
+com\weixiao\springcloud\service\PaymentService.class
+com\weixiao\springcloud\service\impl\PaymentServiceImpl.class
+com\weixiao\springcloud\ProviderPaymentMain.class
