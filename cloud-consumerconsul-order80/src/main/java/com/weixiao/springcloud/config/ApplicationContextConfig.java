@@ -8,13 +8,14 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author :weixiao
  * @description :
- * @date :2020/11/9 11:09
+ * @date :2020/11/25 10:50
  */
 @Configuration
-public class MyApplicationConfig {
+public class ApplicationContextConfig {
+
 
     @Bean
-   // @LoadBalanced //添加负载均衡机制
+    @LoadBalanced
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }

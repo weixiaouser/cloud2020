@@ -9,17 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-order80" />
+        <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7003" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
+        <module name="cloud-providerconsul-payment8006" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumerconsul-order80" target="1.8" />
       <module name="cloud-consumerzk-order80" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
@@ -27,6 +30,7 @@
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
+      <module name="cloud-providerconsul-payment8006" target="1.8" />
       <module name="cloud2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -34,12 +38,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumerconsul-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumerzk-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-providerconsul-payment8006" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -234,12 +240,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" filepath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
     </modules>
   </component>
@@ -325,6 +333,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid/1.1.16/druid-1.1.16-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ecwid.consul:consul-api:1.4.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/ecwid/consul/consul-api/1.4.1/consul-api-1.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/ecwid/consul/consul-api/1.4.1/consul-api-1.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/ecwid/consul/consul-api/1.4.1/consul-api-1.4.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.1">
@@ -525,6 +544,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.google.code.gson:gson:2.8.6">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.6/gson-2.8.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.guava:guava:16.0">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0/guava-16.0.jar!/" />
@@ -534,6 +564,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0/guava-16.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:guava:16.0.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0.1/guava-16.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.inject:guice:4.1.0">
@@ -844,6 +885,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: commons-codec:commons-codec:1.11">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-codec/commons-codec/1.11/commons-codec-1.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: commons-codec:commons-codec:1.9">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/" />
@@ -1053,6 +1105,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: joda-time:joda-time:2.10.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/joda-time/joda-time/2.10.5/joda-time-2.10.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: joda-time:joda-time:2.3">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/joda-time/joda-time/2.3/joda-time-2.3.jar!/" />
@@ -1218,6 +1281,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/curator/curator-x-discovery/4.0.1/curator-x-discovery-4.0.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.5.10">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.httpcomponents:httpclient:4.5.3">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/" />
@@ -1227,6 +1301,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.4.12">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.httpcomponents:httpcore:4.4.6">
@@ -2021,6 +2106,28 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-consul-core:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-core/2.2.1.RELEASE/spring-cloud-consul-core-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-core/2.2.1.RELEASE/spring-cloud-consul-core-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-core/2.2.1.RELEASE/spring-cloud-consul-core-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-consul-discovery:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-discovery/2.2.1.RELEASE/spring-cloud-consul-discovery-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-discovery/2.2.1.RELEASE/spring-cloud-consul-discovery-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-consul-discovery/2.2.1.RELEASE/spring-cloud-consul-discovery-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-context:2.2.1.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-context/2.2.1.RELEASE/spring-cloud-context-2.2.1.RELEASE.jar!/" />
@@ -2096,6 +2203,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.1.RELEASE/spring-cloud-netflix-ribbon-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-consul-discovery:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.1.RELEASE/spring-cloud-starter-consul-discovery-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.1.RELEASE/spring-cloud-starter-consul-discovery-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.1.RELEASE/spring-cloud-starter-consul-discovery-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-consul:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul/2.2.1.RELEASE/spring-cloud-starter-consul-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul/2.2.1.RELEASE/spring-cloud-starter-consul-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul/2.2.1.RELEASE/spring-cloud-starter-consul-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:2.2.1.RELEASE">
