@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-consumer-hystrix-order80" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7003" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
@@ -23,12 +25,14 @@
     <bytecodeTargetLevel target="8">
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
+      <module name="cloud-consumer-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-consumerconsul-order80" target="1.8" />
       <module name="cloud-consumerzk-order80" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-eureka-server7003" target="1.8" />
+      <module name="cloud-provider-hystrix-payment8001" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
@@ -40,11 +44,13 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumerconsul-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumerzk-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />
@@ -243,11 +249,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
@@ -372,6 +380,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.7.5/jackson-annotations-2.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.7.5/jackson-annotations-2.7.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.7.5/jackson-annotations-2.7.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.9.4/jackson-annotations-2.9.4.jar!/" />
@@ -392,6 +411,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.7.5/jackson-core-2.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.7.5/jackson-core-2.7.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.7.5/jackson-core-2.7.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.2">
@@ -425,6 +455,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-databind/2.7.5/jackson-databind-2.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-databind/2.7.5/jackson-databind-2.7.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-databind/2.7.5/jackson-databind-2.7.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4">
@@ -480,6 +521,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.7.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/module/jackson-module-afterburner/2.7.5/jackson-module-afterburner-2.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/module/jackson-module-afterburner/2.7.5/jackson-module-afterburner-2.7.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/module/jackson-module-afterburner/2.7.5/jackson-module-afterburner-2.7.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.10.1">
@@ -557,6 +609,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:guava:15.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/15.0/guava-15.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/15.0/guava-15.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/15.0/guava-15.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.guava:guava:16.0">
@@ -645,6 +708,39 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.18">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.netflix.hystrix:hystrix-serialization:1.5.18">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.3.0">
@@ -1076,6 +1172,28 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.reactivex:rxjava:1.2.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.reactivex:rxjava:1.3.8">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/" />
@@ -1307,6 +1425,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.commons:commons-lang3:3.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.commons:commons-math:2.2">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-math/2.2/commons-math-2.2.jar!/" />
@@ -1505,6 +1634,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.8.6">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.aspectj:aspectjweaver:1.9.5">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/" />
@@ -1646,6 +1786,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.9">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.hibernate.validator:hibernate-validator:6.0.18.Final">
@@ -1879,6 +2030,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.reactivestreams:reactive-streams:1.0.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.reactivestreams:reactive-streams:1.0.3">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/" />
@@ -1910,6 +2072,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-api:1.7.12">
@@ -2372,6 +2545,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.2.1.RELEASE/spring-cloud-starter-netflix-eureka-server-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.1.RELEASE">
