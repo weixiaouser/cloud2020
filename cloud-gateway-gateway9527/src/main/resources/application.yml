@@ -24,8 +24,8 @@ spring:
             - Path=/payment/lb/**
            # - After=2020-11-30T21:08:55.365+08:00[Asia/Shanghai]
            # - Cookie=username,weixiao
-            - Header=X-Request-Id,\d+   #请求头要有X-Request-Id属性并且值为整数的正则表达式
-            - Method=GET
+           # - Header=X-Request-Id,\d+   #请求头要有X-Request-Id属性并且值为整数的正则表达式
+           # - Method=GET
 
 eureka:
   instance:
