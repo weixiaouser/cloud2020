@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-hystrix-order80" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7003" />
+        <module name="cloud-gateway-gateway9527" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
@@ -25,6 +27,7 @@
     <bytecodeTargetLevel target="8">
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
+      <module name="cloud-consumer-hystrix-dashboard9001" target="1.8" />
       <module name="cloud-consumer-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-consumerconsul-order80" target="1.8" />
@@ -32,6 +35,7 @@
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-eureka-server7003" target="1.8" />
+      <module name="cloud-gateway-gateway9527" target="1.8" />
       <module name="cloud-provider-hystrix-payment8001" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
@@ -44,12 +48,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumerconsul-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumerzk-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-gateway-gateway9527" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
@@ -249,12 +255,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" filepath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7003/cloud-eureka-server7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
@@ -1150,6 +1158,138 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.netty:netty-buffer:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec-http2:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http2/4.1.43.Final/netty-codec-http2-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http2/4.1.43.Final/netty-codec-http2-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http2/4.1.43.Final/netty-codec-http2-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec-http:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http/4.1.43.Final/netty-codec-http-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http/4.1.43.Final/netty-codec-http-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-http/4.1.43.Final/netty-codec-http-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec-socks:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-socks/4.1.43.Final/netty-codec-socks-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-socks/4.1.43.Final/netty-codec-socks-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-socks/4.1.43.Final/netty-codec-socks-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.43.Final/netty-codec-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.43.Final/netty-codec-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.43.Final/netty-codec-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-common:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.43.Final/netty-common-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-handler-proxy:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler-proxy/4.1.43.Final/netty-handler-proxy-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler-proxy/4.1.43.Final/netty-handler-proxy-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler-proxy/4.1.43.Final/netty-handler-proxy-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-handler:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.43.Final/netty-handler-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.43.Final/netty-handler-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.43.Final/netty-handler-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-resolver:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.43.Final/netty-resolver-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-epoll/4.1.43.Final/netty-transport-native-epoll-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport:4.1.43.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.projectreactor.addons:reactor-extra:3.3.1.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/addons/reactor-extra/3.3.1.RELEASE/reactor-extra-3.3.1.RELEASE.jar!/" />
@@ -1159,6 +1299,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/addons/reactor-extra/3.3.1.RELEASE/reactor-extra-3.3.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.projectreactor.netty:reactor-netty:0.9.2.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/netty/reactor-netty/0.9.2.RELEASE/reactor-netty-0.9.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/netty/reactor-netty/0.9.2.RELEASE/reactor-netty-0.9.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/netty/reactor-netty/0.9.2.RELEASE/reactor-netty-0.9.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.projectreactor:reactor-core:3.3.1.RELEASE">
@@ -1766,6 +1917,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.glassfish:jakarta.el:3.0.3">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.hamcrest:hamcrest:2.1">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/" />
@@ -2261,6 +2423,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-reactor-netty/2.2.2.RELEASE/spring-boot-starter-reactor-netty-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-reactor-netty/2.2.2.RELEASE/spring-boot-starter-reactor-netty-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-reactor-netty/2.2.2.RELEASE/spring-boot-starter-reactor-netty-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE.jar!/" />
@@ -2303,6 +2476,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-webflux/2.2.2.RELEASE/spring-boot-starter-webflux-2.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-webflux/2.2.2.RELEASE/spring-boot-starter-webflux-2.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-webflux/2.2.2.RELEASE/spring-boot-starter-webflux-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter:2.2.2.RELEASE">
@@ -2404,6 +2588,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-context/2.2.1.RELEASE/spring-cloud-context-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:2.2.1.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-loadbalancer/2.2.1.RELEASE/spring-cloud-loadbalancer-2.2.1.RELEASE.jar!/" />
@@ -2446,6 +2641,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.1.RELEASE/spring-cloud-netflix-eureka-server-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE">
@@ -2503,6 +2709,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-consul/2.2.1.RELEASE/spring-cloud-starter-consul-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-gateway/2.2.1.RELEASE/spring-cloud-starter-gateway-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-gateway/2.2.1.RELEASE/spring-cloud-starter-gateway-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-gateway/2.2.1.RELEASE/spring-cloud-starter-gateway-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-loadbalancer:2.2.1.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.1.RELEASE/spring-cloud-starter-loadbalancer-2.2.1.RELEASE.jar!/" />
@@ -2545,6 +2762,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.2.1.RELEASE/spring-cloud-starter-netflix-eureka-server-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.1.RELEASE">
@@ -2844,6 +3072,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-webflux:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webflux/5.2.2.RELEASE/spring-webflux-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webflux/5.2.2.RELEASE/spring-webflux-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webflux/5.2.2.RELEASE/spring-webflux-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/" />
@@ -2853,6 +3092,50 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.synchronoss.cloud:nio-multipart-parser:1.1.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.synchronoss.cloud:nio-stream-storage:1.1.3">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-stream-storage/1.1.3/nio-stream-storage-1.1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-stream-storage/1.1.3/nio-stream-storage-1.1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/synchronoss/cloud/nio-stream-storage/1.1.3/nio-stream-storage-1.1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.webjars:d3js:3.4.11">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/d3js/3.4.11/d3js-3.4.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/d3js/3.4.11/d3js-3.4.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/d3js/3.4.11/d3js-3.4.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.webjars:jquery:2.1.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/jquery/2.1.1/jquery-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/jquery/2.1.1/jquery-2.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/webjars/jquery/2.1.1/jquery-2.1.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.xmlunit:xmlunit-core:2.6.3">

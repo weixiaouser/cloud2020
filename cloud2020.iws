@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89941eff-87f3-499e-bcc5-1945510c26b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud2020.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/cloud2020.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud2020.iws" beforeDir="false" afterPath="$PROJECT_DIR$/cloud2020.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +25,8 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-hystrix-order80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway-gateway9527/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     <session id="1974117744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -62,53 +67,54 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="13" />
-          <entry key="class" value="23" />
+          <entry key="class" value="24" />
           <entry key="dtd" value="1" />
           <entry key="iws" value="1" />
-          <entry key="java" value="87" />
+          <entry key="java" value="91" />
           <entry key="pom" value="10" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="37" />
-          <entry key="yml" value="33" />
+          <entry key="xml" value="42" />
+          <entry key="yml" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="23" />
+          <entry key="CLASS" value="24" />
           <entry key="DTD" value="1" />
           <entry key="IDEA_WORKSPACE" value="1" />
-          <entry key="JAVA" value="87" />
+          <entry key="JAVA" value="91" />
           <entry key="Properties" value="3" />
           <entry key="UML" value="13" />
-          <entry key="XML" value="47" />
-          <entry key="YAML" value="33" />
+          <entry key="XML" value="52" />
+          <entry key="YAML" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="6405" />
+          <entry key="java" value="7769" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="2091" />
-          <entry key="yml" value="2124" />
+          <entry key="xml" value="2238" />
+          <entry key="yml" value="2546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="6405" />
+          <entry key="JAVA" value="7769" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="2091" />
-          <entry key="YAML" value="2124" />
+          <entry key="XML" value="2238" />
+          <entry key="YAML" value="2546" />
         </counts>
       </usages-collector>
     </session>
@@ -118,83 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="22" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/config/FeginConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/service/PaymentFeignService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/controller/PaymentFeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/service/PaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/OrderFeignMain80.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -209,37 +140,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="756">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/weixiao/springcloud/HystrixDashboardMain9001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,8 +193,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="1782">
+              <caret line="66" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="66" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2808">
+              <caret line="104" column="21" selection-start-line="93" selection-start-column="8" selection-end-line="104" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -259,7 +211,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="378">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -268,7 +220,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/FeignHystrixOrderMain80.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="297">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -277,14 +229,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="351">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -301,7 +262,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
+            <state relative-caret-position="1080">
               <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -313,8 +274,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="972">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -323,19 +284,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.class">
+        <entry file="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="1890">
+              <caret line="77" column="127" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -343,13 +295,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="648">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/config/GatewayConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/controller/PaymentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7003/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -364,8 +363,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/ProviderPaymentMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="183">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/GateWayMain9527.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -376,8 +387,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/weixiao/springcloud/ProviderPaymentMain8002.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+            <state relative-caret-position="426">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -450,6 +461,7 @@
     <findStrings>
       <find>Evict</find>
       <find>provider-payment</find>
+      <find>circuitBreaker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -471,13 +483,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/weixiao/springcloud/CloudProviderPaymentMain8004.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/weixiao/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/weixiao/springcloud/config/ApplicationContextConfig.java" />
         <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/weixiao/springcloud/ConsumerZkOrderMain80.java" />
         <option value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/weixiao/springcloud/controller/ConsumerZkController.java" />
@@ -514,14 +519,21 @@
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/FeignHystrixOrderMain80.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixServiceImplFallBack.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/weixiao/springcloud/HystrixDashboardMain9001.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/GateWayMain9527.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/config/GatewayConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -560,11 +572,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-gateway-gateway9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-gateway-gateway9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -622,7 +634,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -664,82 +676,63 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="weixiao" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="weixiao" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-hystrix-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -747,81 +740,30 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka-server7003" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -829,7 +771,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -838,7 +780,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -848,7 +790,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -859,31 +801,19 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="weixiao" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -902,163 +832,130 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiao" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1070,7 +967,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="HystrixServletAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.hystrix.HystrixAutoConfiguration.HystrixServletAutoConfiguration&#10;RoundRo&#9;PSI&#9;JAVA://com.netflix.loadbalancer.RoundRobinRule&#10;IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule" />
+    <property name="SearchEverywhereHistoryKey" value="HystrixCommandPro&#9;PSI&#9;JAVA://com.netflix.hystrix.HystrixCommandProperties&#10;HystrixServletAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.hystrix.HystrixAutoConfiguration.HystrixServletAutoConfiguration&#10;RoundRo&#9;PSI&#9;JAVA://com.netflix.loadbalancer.RoundRobinRule&#10;IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -1078,7 +975,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606705762681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606740998559" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="E:/Code/cloud2020/pom.xml" />
@@ -1118,7 +1015,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignHystrixOrderMain80">
+  <component name="RunManager" selected="Spring Boot.GateWayMain9527">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1172,6 +1069,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.CustomerOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FeignHystrixOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-hystrix-order80" />
       <extension name="coverage">
@@ -1185,22 +1089,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud-consumerconsul-order80" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.OrderConsulMain80" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-order80" />
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-gateway9527" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.weixiao.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.OrderFeignMain80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumerconsul-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixiao.springcloud.OrderConsulMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1268,19 +1179,21 @@
       <item itemvalue="Spring Boot.ConsumerZkOrderMain80" />
       <item itemvalue="Spring Boot.ConsulPaymentMain8006" />
       <item itemvalue="Spring Boot.OrderConsulMain80" />
-      <item itemvalue="Spring Boot.ProviderPaymentMain8002" />
+      <item itemvalue="Spring Boot.CustomerOrderMain" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       <item itemvalue="Spring Boot.ProviderPaymentMain" />
-      <item itemvalue="Spring Boot.OrderFeignMain80" />
       <item itemvalue="Spring Boot.ProviderHystrixPayment8001" />
       <item itemvalue="Spring Boot.FeignHystrixOrderMain80" />
+      <item itemvalue="Spring Boot.GateWayMain9527" />
+      <item itemvalue="Spring Boot.ProviderPaymentMain8002" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FeignHystrixOrderMain80" />
-        <item itemvalue="Spring Boot.ProviderHystrixPayment8001" />
-        <item itemvalue="Spring Boot.OrderFeignMain80" />
+        <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="Spring Boot.ProviderPaymentMain8002" />
         <item itemvalue="Spring Boot.ProviderPaymentMain" />
+        <item itemvalue="Spring Boot.ProviderHystrixPayment8001" />
+        <item itemvalue="Spring Boot.FeignHystrixOrderMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -1314,12 +1227,13 @@
       <workItem from="1606354731625" duration="15136000" />
       <workItem from="1606441339356" duration="13508000" />
       <workItem from="1606523573020" duration="5221000" />
-      <workItem from="1606701100435" duration="3693000" />
+      <workItem from="1606701100435" duration="14480000" />
+      <workItem from="1606738877162" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134565000" />
+    <option name="totallyTimeSpent" value="146833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1334,7 +1248,7 @@
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30764076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29155496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1345,7 +1259,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.23603351" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.48184356" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.400838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1364,14 +1278,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.3297587" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.45844504" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2761394" />
       <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30764076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29155496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1382,7 +1296,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5865922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.06843575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.400838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1393,7 +1307,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.37517434" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3282123" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.22206704" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.22206704" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.32914925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1401,7 +1315,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.3297587" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.45844504" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2761394" />
       <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1457,94 +1371,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/weixiao/springcloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/weixiao/myRule/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/weixiao/springcloud/entitys/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/weixiao/springcloud/CustomerOrderMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/IRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/RoundRobinRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="76" column="73" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
-          <caret line="132" column="73" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.1.RELEASE/spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.1.RELEASE/spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="82" column="5" selection-start-line="74" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -1594,13 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="22" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/config/FeginConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1622,9 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1645,20 +1462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/weixiao/springcloud/OrderFeignMain80.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1683,13 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Repo/Maven3.6.1/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
@@ -1704,30 +1504,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/weixiao/springcloud/HystrixDashboardMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="66" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="104" column="21" selection-start-line="93" selection-start-column="8" selection-end-line="104" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/FeignHystrixOrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixServiceImplFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Repo/Maven3.6.1/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="77" column="127" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7003/src/main/java/com/weixiao/springcloud/CloudEurekaServer7003Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/ProviderPaymentMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/weixiao/springcloud/ProviderPaymentMain8002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1772,23 +1705,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/controller/HystrixController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/config/GatewayConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="367">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/service/HystrixService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1799,54 +1736,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/weixiao/springcloud/ProviderHystrixPayment8001.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/weixiao/springcloud/ProviderPaymentMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="183">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/FeignHystrixOrderMain80.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/weixiao/springcloud/ProviderPaymentMain8002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="426">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/weixiao/springcloud/GateWayMain9527.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/controller/OrderHystrixController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixServiceImplFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/weixiao/springcloud/service/PaymentHystrixService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="112">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1917,12 +1830,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-provider-payment8002</last-edited>
+          <last-edited>Spring|cloud-provider-payment8002</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4460094" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
