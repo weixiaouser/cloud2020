@@ -31,6 +31,10 @@ public class HystrixController {
         log.info("*****payment_timeout*****result:"+result);
         return result;
     }
+    @GetMapping(value = "/payment/circuit/{id}")
+    public String circuitBreaker(@PathVariable("id") Integer id){
+        return hystrixService.paymentCircuitBreaker(id);
+    }
 
 
 }
