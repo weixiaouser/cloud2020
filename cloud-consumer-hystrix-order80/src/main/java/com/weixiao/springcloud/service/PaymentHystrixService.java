@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @author :weixiao
- * @description :
+ * @description :fallback方法对方服务宕机或者其他异常情况会调用fallback所对应类中的方法
  * @date :2020/11/28 8:36
  */
 @Component
-@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT")
+@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT",fallback = PaymentHystrixServiceImplFallBack.class)
 public interface PaymentHystrixService {
 
     @GetMapping("/payment/ok/{id}")
