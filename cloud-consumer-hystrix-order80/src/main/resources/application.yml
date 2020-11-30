@@ -17,3 +17,8 @@ ribbon:
   ReadTimeout: 5000
   #指的是建立连接后从服务器读取到可用资源所用的时间
   ConnectTimeout: 5000
+#服务降级一般用在客户端
+#开启客户端服务降级操作
+feign:
+  hystrix:
+    enabled: true

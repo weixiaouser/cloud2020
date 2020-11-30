@@ -1,5 +1,7 @@
 package com.weixiao.springcloud.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.weixiao.springcloud.service.PaymentHystrixService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,8 +27,18 @@ public class OrderHystrixController {
     }
 
     @GetMapping("/consumer/payment/timeout/{id}")
+    //当服务超时或者抛出异常都会触发兜底服务paymentTimeoutHandler显示系统信息
+    @HystrixCommand(fallbackMethod = "paymentTimeoutHandler",commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "1500")
+    })
     public String payment_timeout(@PathVariable("id") Integer id){
+        int age = 10/0;
         String result = paymentHystrixService.payment_timeout(id);
         return result;
+    }
+
+
+    public String paymentTimeoutHandler(@PathVariable("id") Integer id){
+        return "我是消费者80，线程号："+Thread.currentThread().getName()+"id: "+id+" 系统繁忙，请稍后再试。。(╥╯^╰╥)";
     }
 }
