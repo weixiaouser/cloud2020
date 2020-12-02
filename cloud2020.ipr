@@ -25,6 +25,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -47,6 +48,7 @@
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
       <module name="cloud-providerconsul-payment8006" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
       <module name="cloud2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -70,6 +72,7 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-providerconsul-payment8006" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -280,6 +283,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" filepath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
     </modules>
   </component>
@@ -1786,6 +1790,28 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.5.6">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.4.10">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.httpcomponents:httpcore:4.4.12">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar!/" />
@@ -3203,6 +3229,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/integration/spring-integration-core/5.2.1.RELEASE/spring-integration-core-5.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.integration:spring-integration-core:5.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/integration/spring-integration-core/5.2.2.RELEASE/spring-integration-core-5.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/integration/spring-integration-core/5.2.2.RELEASE/spring-integration-core-5.2.2.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/integration/spring-integration-core/5.2.2.RELEASE/spring-integration-core-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.integration:spring-integration-jmx:5.2.2.RELEASE">
