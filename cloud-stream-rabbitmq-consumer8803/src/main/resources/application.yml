@@ -1,9 +1,9 @@
 server:
-  port: 8802
+  port: 8803
 
 spring:
   application:
-    name: cloud-stream-consumer
+    name: cloud-stream-consumer2
   cloud:
     stream:
       binders: # 在此处配置要绑定的rabbitmq的服务信息；
@@ -21,7 +21,7 @@ spring:
           destination: studyExchange # 表示要使用的Exchange名称定义
           content-type: application/json # 设置消息类型，本次为json，文本则设置“text/plain”
           binder: defaultRabbit # 设置要绑定的消息服务的具体设置
-          group: weixiaoA #分组  同一个组内会发生竞争关系，只有一个可以消费；不同的组是可以消费的;添加分组之后如果删除该属性则会导致服务宕机之后消息丢失
+          group: weixiaoA
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -30,5 +30,5 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
     lease-expiration-duration-in-seconds: 5 # 如果现在超过了5秒的间隔（默认是90秒）
-    instance-id: send-8802.com  # 在信息列表时显示主机名称
+    instance-id: send-8803.com  # 在信息列表时显示主机名称
     prefer-ip-address: true     # 访问的路径变为IP地址
