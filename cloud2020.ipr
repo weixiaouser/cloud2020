@@ -28,6 +28,10 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloudalibaba-config-nacos-client3377" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloudalibaba-provider-payment9002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -54,6 +58,10 @@
       <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
       <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
       <module name="cloud2020" target="1.8" />
+      <module name="cloudalibaba-config-nacos-client3377" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order83" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
@@ -79,6 +87,10 @@
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -293,6 +305,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -368,6 +384,94 @@
         <root url="jar://E:/Repo/Maven3.6.1/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-nacos-config:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-nacos-discovery:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.nacos:nacos-api:1.1.4">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-api/1.1.4/nacos-api-1.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-api/1.1.4/nacos-api-1.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-api/1.1.4/nacos-api-1.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.nacos:nacos-client:1.1.4">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-client/1.1.4/nacos-client-1.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-client/1.1.4/nacos-client-1.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-client/1.1.4/nacos-client-1.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.nacos:nacos-common:1.1.4">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.spring:spring-context-support:1.0.5">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/spring/spring-context-support/1.0.5/spring-context-support-1.0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/spring/spring-context-support/1.0.5/spring-context-support-1.0.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/spring/spring-context-support/1.0.5/spring-context-support-1.0.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.alibaba:druid:1.1.16">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid/1.1.16/druid-1.1.16.jar!/" />
@@ -377,6 +481,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid/1.1.16/druid-1.1.16-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.58">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.58/fastjson-1.2.58-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.58/fastjson-1.2.58-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.ecwid.consul:consul-api:1.4.1">
@@ -421,6 +536,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.7.5/jackson-annotations-2.7.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4">
@@ -621,6 +747,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.google.code.findbugs:jsr305:1.3.9">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.code.findbugs:jsr305:3.0.1">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" />
@@ -652,6 +789,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.errorprone:error_prone_annotations:2.0.18">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.guava:guava:15.0">
@@ -687,6 +835,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.google.guava:guava:22.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/22.0/guava-22.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/22.0/guava-22.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/22.0/guava-22.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.inject:guice:4.1.0">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/inject/guice/4.1.0/guice-4.1.0.jar!/" />
@@ -696,6 +855,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.j2objc:j2objc-annotations:1.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.googlecode.javaewah:JavaEWAH:1.1.6">
@@ -1446,6 +1616,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.prometheus:simpleclient:0.5.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/prometheus/simpleclient/0.5.0/simpleclient-0.5.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/prometheus/simpleclient/0.5.0/simpleclient-0.5.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/prometheus/simpleclient/0.5.0/simpleclient-0.5.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar!/" />
@@ -1930,6 +2111,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.commons:commons-lang3:3.4">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.commons:commons-math:2.2">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-math/2.2/commons-math-2.2.jar!/" />
@@ -1996,6 +2188,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.5.12">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.httpcomponents:httpclient:4.5.3">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/" />
@@ -2049,6 +2252,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.4.13">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.httpcomponents:httpcore:4.4.6">
@@ -2269,6 +2483,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.codehaus.woodstox:stax2-api:4.2">
@@ -2711,6 +2936,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.7">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.amqp:spring-amqp:2.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/amqp/spring-amqp/2.2.2.RELEASE/spring-amqp-2.2.2.RELEASE.jar!/" />
@@ -2876,6 +3112,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-logging:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-logging:2.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE.jar!/" />
@@ -2951,6 +3198,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-webflux/2.2.2.RELEASE/spring-boot-starter-webflux-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter:2.2.2.RELEASE">
@@ -3646,6 +3904,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-core:5.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-core:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/" />
@@ -3688,6 +3957,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-expression/5.2.8.RELEASE/spring-expression-5.2.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jcl:5.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-jcl:5.2.2.RELEASE">
