@@ -32,6 +32,7 @@
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-sentinel-service8401" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -62,6 +63,7 @@
       <module name="cloudalibaba-consumer-nacos-order83" target="1.8" />
       <module name="cloudalibaba-provider-payment9001" target="1.8" />
       <module name="cloudalibaba-provider-payment9002" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8401" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
@@ -91,6 +93,7 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -309,6 +312,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -406,6 +410,39 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel-datasource:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel-datasource/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel-datasource/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel-datasource/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-alibaba-sentinel-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-circuitbreaker-sentinel:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-circuitbreaker-sentinel/2.2.0.RELEASE/spring-cloud-circuitbreaker-sentinel-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-circuitbreaker-sentinel/2.2.0.RELEASE/spring-cloud-circuitbreaker-sentinel-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-circuitbreaker-sentinel/2.2.0.RELEASE/spring-cloud-circuitbreaker-sentinel-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.0.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.0.RELEASE.jar!/" />
@@ -426,6 +463,149 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.0.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-annotation-aspectj:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-annotation-aspectj/1.7.1/sentinel-annotation-aspectj-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-annotation-aspectj/1.7.1/sentinel-annotation-aspectj-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-annotation-aspectj/1.7.1/sentinel-annotation-aspectj-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-cluster-client-default:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-client-default/1.7.1/sentinel-cluster-client-default-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-client-default/1.7.1/sentinel-cluster-client-default-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-client-default/1.7.1/sentinel-cluster-client-default-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-cluster-common-default:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-common-default/1.7.1/sentinel-cluster-common-default-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-common-default/1.7.1/sentinel-cluster-common-default-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-common-default/1.7.1/sentinel-cluster-common-default-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-cluster-server-default:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-server-default/1.7.1/sentinel-cluster-server-default-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-server-default/1.7.1/sentinel-cluster-server-default-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-cluster-server-default/1.7.1/sentinel-cluster-server-default-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-core:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-datasource-extension:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-extension/1.7.1/sentinel-datasource-extension-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-extension/1.7.1/sentinel-datasource-extension-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-extension/1.7.1/sentinel-datasource-extension-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-parameter-flow-control:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-parameter-flow-control/1.7.1/sentinel-parameter-flow-control-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-parameter-flow-control/1.7.1/sentinel-parameter-flow-control-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-parameter-flow-control/1.7.1/sentinel-parameter-flow-control-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-reactor-adapter:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-reactor-adapter/1.7.1/sentinel-reactor-adapter-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-reactor-adapter/1.7.1/sentinel-reactor-adapter-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-reactor-adapter/1.7.1/sentinel-reactor-adapter-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-spring-webflux-adapter:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webflux-adapter/1.7.1/sentinel-spring-webflux-adapter-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webflux-adapter/1.7.1/sentinel-spring-webflux-adapter-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webflux-adapter/1.7.1/sentinel-spring-webflux-adapter-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-spring-webmvc-adapter:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.7.1/sentinel-spring-webmvc-adapter-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.7.1/sentinel-spring-webmvc-adapter-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.7.1/sentinel-spring-webmvc-adapter-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-transport-common:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-common/1.7.1/sentinel-transport-common-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-common/1.7.1/sentinel-transport-common-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-common/1.7.1/sentinel-transport-common-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-transport-simple-http:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-simple-http/1.7.1/sentinel-transport-simple-http-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-simple-http/1.7.1/sentinel-transport-simple-http-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-transport-simple-http/1.7.1/sentinel-transport-simple-http-1.7.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.alibaba.nacos:nacos-api:1.1.4">
@@ -866,6 +1046,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.googlecode.javaewah:JavaEWAH:1.1.6">
@@ -1440,6 +1631,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.netty:netty-buffer:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.31.Final/netty-buffer-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.31.Final/netty-buffer-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.31.Final/netty-buffer-4.1.31.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.netty:netty-buffer:4.1.43.Final">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-buffer/4.1.43.Final/netty-buffer-4.1.43.Final.jar!/" />
@@ -1484,6 +1686,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec-socks/4.1.43.Final/netty-codec-socks-4.1.43.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.netty:netty-codec:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.31.Final/netty-codec-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.31.Final/netty-codec-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.31.Final/netty-codec-4.1.31.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.netty:netty-codec:4.1.43.Final">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.43.Final/netty-codec-4.1.43.Final.jar!/" />
@@ -1493,6 +1706,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-codec/4.1.43.Final/netty-codec-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-common:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.31.Final/netty-common-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.31.Final/netty-common-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-common/4.1.31.Final/netty-common-4.1.31.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.netty:netty-common:4.1.43.Final">
@@ -1517,6 +1741,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler-proxy/4.1.43.Final/netty-handler-proxy-4.1.43.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.netty:netty-handler:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.31.Final/netty-handler-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.31.Final/netty-handler-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.31.Final/netty-handler-4.1.31.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.netty:netty-handler:4.1.43.Final">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.43.Final/netty-handler-4.1.43.Final.jar!/" />
@@ -1526,6 +1761,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-handler/4.1.43.Final/netty-handler-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-resolver:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.31.Final/netty-resolver-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.31.Final/netty-resolver-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-resolver/4.1.31.Final/netty-resolver-4.1.31.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.netty:netty-resolver:4.1.43.Final">
@@ -1559,6 +1805,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport-native-unix-common/4.1.43.Final/netty-transport-native-unix-common-4.1.43.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport:4.1.31.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.netty:netty-transport:4.1.43.Final">
@@ -2386,6 +2643,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.aspectj:aspectjrt:1.9.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.aspectj:aspectjrt:1.9.5">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar!/" />
@@ -2406,6 +2674,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.9.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.aspectj:aspectjweaver:1.9.5">
@@ -3055,6 +3334,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-amqp/2.2.2.RELEASE/spring-boot-starter-amqp-2.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.2.RELEASE">
