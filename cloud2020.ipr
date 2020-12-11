@@ -30,8 +30,11 @@
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloudalibaba-consumer-nacos-order84" />
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9003" />
+        <module name="cloudalibaba-provider-payment9004" />
         <module name="cloudalibaba-sentinel-service8401" />
       </profile>
     </annotationProcessing>
@@ -61,8 +64,11 @@
       <module name="cloud2020" target="1.8" />
       <module name="cloudalibaba-config-nacos-client3377" target="1.8" />
       <module name="cloudalibaba-consumer-nacos-order83" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order84" target="1.8" />
       <module name="cloudalibaba-provider-payment9001" target="1.8" />
       <module name="cloudalibaba-provider-payment9002" target="1.8" />
+      <module name="cloudalibaba-provider-payment9003" target="1.8" />
+      <module name="cloudalibaba-provider-payment9004" target="1.8" />
       <module name="cloudalibaba-sentinel-service8401" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -91,8 +97,11 @@
     <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
@@ -310,8 +319,11 @@
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/cloudalibaba-provider-payment9003.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/cloudalibaba-provider-payment9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
     </modules>
   </component>
@@ -540,6 +552,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-extension/1.7.1/sentinel-datasource-extension-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.csp:sentinel-datasource-nacos:1.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-nacos/1.7.1/sentinel-datasource-nacos-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-nacos/1.7.1/sentinel-datasource-nacos-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/csp/sentinel-datasource-nacos/1.7.1/sentinel-datasource-nacos-1.7.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.alibaba.csp:sentinel-parameter-flow-control:1.7.1">
