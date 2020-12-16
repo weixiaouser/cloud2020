@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.weixiao.springcloud.dao.OrderDao">
+
+    <resultMap id="baseMap" type="Order">
+        <id property="id" column="id"/>
+        <id property="userId" column="user_id"/>
+        <id property="productId" column="product_id"/>
+        <id property="commodityCode" column="commodity_code"/>
+        <id property="count" column="count"/>
+        <id property="money" column="money"/>
+        <id property="status" column="status"/>
+    </resultMap>
+
+    <insert id="create" parameterType="Order">
+        insert into t_order (user_id,product_id,commodity_code,count,money,status) values (#{userId},#{productId},#{commodityCode},#{count},#{money},0)
+    </insert>
+
+    <select id="getPaymentById" resultMap="baseMap">
+        select id,user_id,product_id,commodity_code,count,money,status
+        from t_order where id=#{id}
+    </select>
+    <update id="updateById">
+        update t_order set status=0 where user_id = #{userId} and status=#{status}
+    </update>
+</mapper>

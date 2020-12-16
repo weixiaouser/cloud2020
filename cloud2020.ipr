@@ -36,6 +36,10 @@
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9004" />
         <module name="cloudalibaba-sentinel-service8401" />
+        <module name="seata-account-service2003" />
+        <module name="seata-order-service2001" />
+        <module name="seata-storage-service2002" />
+        <module name="snowflake-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -70,6 +74,10 @@
       <module name="cloudalibaba-provider-payment9003" target="1.8" />
       <module name="cloudalibaba-provider-payment9004" target="1.8" />
       <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
+      <module name="snowflake-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
@@ -103,6 +111,10 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service2003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service2002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snowflake-test" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -325,6 +337,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/cloudalibaba-provider-payment9003.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/cloudalibaba-provider-payment9003.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" filepath="$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" filepath="$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowflake-test/snowflake-test.iml" filepath="$PROJECT_DIR$/snowflake-test/snowflake-test.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -367,6 +383,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: cglib:cglib:3.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/cglib/cglib/3.1/cglib-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/cglib/cglib/3.1/cglib-3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/cglib/cglib/3.1/cglib-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: ch.qos.logback:logback-classic:1.2.3">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
@@ -400,6 +427,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: cn.hutool:hutool-all:5.5.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/cn/hutool/hutool-all/5.5.1/hutool-all-5.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/cn/hutool/hutool-all/5.5.1/hutool-all-5.5.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/cn/hutool/hutool-all/5.5.1/hutool-all-5.5.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-nacos-config:2.2.0.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE.jar!/" />
@@ -420,6 +458,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-seata:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-seata/2.2.0.RELEASE/spring-cloud-alibaba-seata-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-seata/2.2.0.RELEASE/spring-cloud-alibaba-seata-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-alibaba-seata/2.2.0.RELEASE/spring-cloud-alibaba-seata-2.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel-datasource:2.2.0.RELEASE">
@@ -475,6 +524,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.0.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-seata:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/2.2.0.RELEASE/spring-cloud-starter-alibaba-seata-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/2.2.0.RELEASE/spring-cloud-starter-alibaba-seata-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/2.2.0.RELEASE/spring-cloud-starter-alibaba-seata-2.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.0.RELEASE">
@@ -675,6 +735,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/spring/spring-context-support/1.0.5/spring-context-support-1.0.5-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.alibaba:druid-spring-boot-starter:1.1.10">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.alibaba:druid:1.1.16">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/druid/1.1.16/druid-1.1.16.jar!/" />
@@ -695,6 +766,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.58/fastjson-1.2.58-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.60">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.60/fastjson-1.2.60.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.60/fastjson-1.2.60-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.60/fastjson-1.2.60-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.73">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.73/fastjson-1.2.73-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/alibaba/fastjson/1.2.73/fastjson-1.2.73-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.ecwid.consul:consul-api:1.4.1">
@@ -728,6 +821,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.3">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.5">
@@ -783,6 +887,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.7.5/jackson-core-2.7.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.2">
@@ -950,6 +1065,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.github.ben-manes.caffeine:caffeine:2.7.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/github/ben-manes/caffeine/caffeine/2.7.0/caffeine-2.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/github/ben-manes/caffeine/caffeine/2.7.0/caffeine-2.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/github/ben-manes/caffeine/caffeine/2.7.0/caffeine-2.7.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.code.findbugs:jsr305:1.3.9">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
@@ -970,6 +1096,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.code.findbugs:jsr305:3.0.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.code.gson:gson:2.8.5">
@@ -1003,6 +1140,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.errorprone:error_prone_annotations:2.2.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:failureaccess:1.0.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.google.guava:guava:15.0">
@@ -1049,6 +1208,28 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/22.0/guava-22.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.google.guava:guava:27.0.1-jre">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.inject:guice:4.1.0">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/inject/guice/4.1.0/guice-4.1.0.jar!/" />
@@ -1069,6 +1250,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.protobuf:protobuf-java:3.7.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2">
@@ -1445,6 +1637,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.typesafe:config:1.2.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/typesafe/config/1.2.1/config-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/com/typesafe/config/1.2.1/config-1.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/com/typesafe/config/1.2.1/config-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
@@ -1577,6 +1780,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: commons-pool:commons-pool:1.6">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-pool/commons-pool/1.6/commons-pool-1.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-pool/commons-pool/1.6/commons-pool-1.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/commons-pool/commons-pool/1.6/commons-pool-1.6-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.github.openfeign.form:feign-form-spring:3.8.0">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar!/" />
@@ -1652,6 +1866,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-all:4.1.30.Final">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.30.Final/netty-all-4.1.30.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.30.Final/netty-all-4.1.30.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/netty/netty-all/4.1.30.Final/netty-all-4.1.30.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.netty:netty-buffer:4.1.31.Final">
@@ -1971,6 +2196,39 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.seata:seata-all:1.3.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.3.0/seata-all-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.3.0/seata-all-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.3.0/seata-all-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.seata:seata-all:1.4.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.4.0/seata-all-1.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-all/1.4.0/seata-all-1.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.seata:seata-spring-boot-starter:1.0.0">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-spring-boot-starter/1.0.0/seata-spring-boot-starter-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-spring-boot-starter/1.0.0/seata-spring-boot-starter-1.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/io/seata/seata-spring-boot-starter/1.0.0/seata-spring-boot-starter-1.0.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.zipkin.brave:brave-context-log4j2:5.9.0">
@@ -2413,6 +2671,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-math/2.2/commons-math-2.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.commons:commons-pool2:2.4.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.apache.curator:curator-client:4.0.1">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/curator/curator-client/4.0.1/curator-client-4.0.1.jar!/" />
@@ -2455,6 +2724,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/curator/curator-x-discovery/4.0.1/curator-x-discovery-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.2.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.httpcomponents:httpclient:4.5.10">
@@ -2510,6 +2790,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.2.1">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.httpcomponents:httpcore:4.4.10">
@@ -2710,6 +3001,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.9.4">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.aspectj:aspectjweaver:1.9.5">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/" />
@@ -2754,6 +3056,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.checkerframework:checker-qual:2.5.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar!/" />
@@ -2796,6 +3109,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.17">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.codehaus.woodstox:stax2-api:4.2">
@@ -3117,6 +3441,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.ow2.asm:asm:4.2">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/ow2/asm/asm/4.2/asm-4.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/ow2/asm/asm/4.2/asm-4.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/ow2/asm/asm/4.2/asm-4.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.ow2.asm:asm:5.0.4">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar!/" />
@@ -3225,6 +3560,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.22">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-api:1.7.25">
@@ -4140,6 +4486,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/security/spring-security-rsa/1.0.9.RELEASE/spring-security-rsa-1.0.9.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-aop:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-aop/4.3.23.RELEASE/spring-aop-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-aop/4.3.23.RELEASE/spring-aop-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-aop/4.3.23.RELEASE/spring-aop-4.3.23.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-aop:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/" />
@@ -4160,6 +4517,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-beans:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-beans/4.3.23.RELEASE/spring-beans-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-beans/4.3.23.RELEASE/spring-beans-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-beans/4.3.23.RELEASE/spring-beans-4.3.23.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-beans:5.2.2.RELEASE">
@@ -4195,6 +4563,17 @@
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context-support/5.2.2.RELEASE/spring-context-support-5.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-context:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/4.3.23.RELEASE/spring-context-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/4.3.23.RELEASE/spring-context-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/4.3.23.RELEASE/spring-context-4.3.23.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-context:5.2.2.RELEASE">
       <CLASSES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/" />
@@ -4215,6 +4594,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/4.3.23.RELEASE/spring-core-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/4.3.23.RELEASE/spring-core-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/4.3.23.RELEASE/spring-core-4.3.23.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-core:5.2.1.RELEASE">
@@ -4248,6 +4638,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-expression:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-expression/4.3.23.RELEASE/spring-expression-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-expression/4.3.23.RELEASE/spring-expression-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-expression/4.3.23.RELEASE/spring-expression-4.3.23.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-expression:5.2.2.RELEASE">
@@ -4380,6 +4781,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webflux/5.2.2.RELEASE/spring-webflux-5.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-webmvc:4.3.23.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webmvc/4.3.23.RELEASE/spring-webmvc-4.3.23.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webmvc/4.3.23.RELEASE/spring-webmvc-4.3.23.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Repo/Maven3.6.1/org/springframework/spring-webmvc/4.3.23.RELEASE/spring-webmvc-4.3.23.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-webmvc:5.2.2.RELEASE">
